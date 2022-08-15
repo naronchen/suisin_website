@@ -1,10 +1,5 @@
 #### This is an exapmle of a company website. It's fully responsive, modern and open source.
 
-# Lets see what we have in the website:
-![alt text](companywebsitegif.gif)
-# Getting Started with Create React App
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
 ## Available Scripts
 
 In the project directory, you can run:
