@@ -1,5 +1,6 @@
 import { Link } from "react-scroll";
 
+
 function Navbar() {
   document.addEventListener("scroll", function (e) {
     if (window.screen.width < 768 && window.scrollY > 690) {
@@ -33,7 +34,9 @@ function Navbar() {
     <nav className="navbar">
       <div className="container">
         <div className="row">
+        <img alt="about" src="../img/suisin_logo.svg" height={60} class="filter-white"/>
           <h1 className="logo">
+         
             <Link
               spy={true}
               smooth={true}
@@ -41,7 +44,7 @@ function Navbar() {
               to="headerbg"
               style={{ cursor: "pointer" }}
             >
-              DarkLeas
+              Suisin
             </Link>
           </h1>
           <ul className="bar">
@@ -66,19 +69,7 @@ function Navbar() {
                 smooth={true}
                 duration={1000}
               >
-                Services
-              </Link>
-            </li>
-            <li>
-              <Link
-                onClick={openBar}
-                to="about-scroll"
-                spy={true}
-                smooth={true}
-                duration={1000}
-                activeClass="active"
-              >
-                About
+                Business
               </Link>
             </li>
             <li>

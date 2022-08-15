@@ -1,14 +1,14 @@
-import About from '../components/About';
-import Services from '../components/Services';
-import Contact from '../components/Contact';
+import About from './main/About';
+import Business from './main/Business';
+// import Contact from './main/Contact';
 
 function Main() {
   return (
     <>
       <main>
-        <Services />
         <About />
-        <Contact />
+        <Business />
+        {/* <Contact /> */}
       </main>
     </>
   );
