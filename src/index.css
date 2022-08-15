@@ -17,7 +17,7 @@ code {
     monospace;
 }
 ::-webkit-scrollbar {
-  width: 10px;
+  width: 2px;
   height: 10px;
 }
 
@@ -101,6 +101,12 @@ code {
 .navopened {
   background-color: #010606!important;
 }
+
+.filter-white{
+  filter: invert(100%) sepia(3%) saturate(134%) hue-rotate(295deg) brightness(113%) contrast(100%);
+}
+
+
 .navopened .logo {
   color: #fafafa!important;
 }
@@ -135,11 +141,11 @@ code {
 .navbar ul { 
   transition: all 0.2s;
 
-  margin-left: 17rem;
+  margin-left: 10.7rem;
   list-style: none;
 }
 .navbar ul li {
-  margin: 0 1rem;
+  margin: 0 4rem;
   display: inline-block;
 }
 .navbar ul li a {
@@ -209,7 +215,14 @@ header h1 {
 /* main */
 .main-title {
   font-size: 48px;
-  color: #01bf71;
+  color: #010a0b;
+}
+.sub-title {
+  letter-spacing: 3px;
+  font-size: 28px;
+  color: #010a0b;
+  margin:0;
+  font-weight: 600;
 }
 .main-p {
   font-size: 22px;
@@ -307,19 +320,22 @@ footer ul li a {
   right: 15px;
   
 }
-/* Services */
+/* Business */
 .card-title {
-  color: #01bf71;
+  color: black;
   font-size: 24px;
 }
 .p-3 {
-  padding: 0.2rem 1rem;
+  padding: 0rem 2rem;
 }
 .card-text {
   padding: 0rem 0rem 1rem 0rem;
   font-weight: 500;
   font-size: 18px;
-
+  text-align: center;
+}
+.card-body-text {
+  padding-top: 0.2rem;
 }
 
 .card {
@@ -398,6 +414,11 @@ ul li a {
   outline: 0;
   border: 0;
   background-color: rgba(0, 0, 0, 0.76);
+
+}
+
+.p-video{
+  padding: 3rem;
 
 }
 
@@ -556,7 +577,7 @@ ul li a {
     display: block;
   }
   .navbar ul li a {
-      cursor: pointer;
+    cursor: pointer;
     font-size: 20px;
     text-decoration: none;
     color: #fafafa;
