@@ -1,6 +1,6 @@
 import About from './main/About';
 import Business from './main/Business';
-// import Contact from './main/Contact';
+import Contact from './main/Contact';
 
 function Main() {
   return (
@@ -8,7 +8,7 @@ function Main() {
       <main>
         <About />
         <Business />
-        {/* <Contact /> */}
+        <Contact />
       </main>
     </>
   );

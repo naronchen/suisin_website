@@ -36,7 +36,7 @@ function Navbar() {
         <div className="row">
         <img alt="about" src="../img/suisin_logo.svg" height={60} class="filter-white"/>
           <h1 className="logo">
-         
+      
             <Link
               spy={true}
               smooth={true}

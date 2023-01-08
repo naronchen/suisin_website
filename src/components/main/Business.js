@@ -22,7 +22,7 @@ function Business() {
                 </div>
             </div>
         </div>
-        <h4 className="sub-title text-center">エアブラシ検定試験</h4>
+        {/* <h4 className="sub-title text-center">エアブラシ検定試験</h4>
         <div>
         <p align="center" className = "p-video">
             <iframe
@@ -34,7 +34,7 @@ function Business() {
 
             />{" "}
             </p>
-         </div>
+         </div> */}
 
     </div>
   );

@@ -1,8 +1,8 @@
 function Header() {
   return (
-    <header>
+    <header class="header">
       <video src="/waterdrop.mp4" loop autoPlay muted></video>
-      <h1>suisin水心</h1>
+        <h1 id="title">水心</h1>
       <div className="row">
         
       </div>

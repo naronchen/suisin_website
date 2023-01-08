@@ -97,6 +97,7 @@ code {
   margin: 0rem 1rem!important;
   width:33.3%;
 }
+
 /* Navbar */
 .navopened {
   background-color: #010606!important;
@@ -127,21 +128,22 @@ code {
   backdrop-filter: blur(2px);
 }
 .navbar .logo {
-  transition: all 0.2s;
+  font-family: 'EB Garamond', serif;
 
+  transition: all 0.2s;
   align-items: center;
   align-content: center;
   color: rgb(243, 243, 243);
   letter-spacing: 2px;
-  font-weight: 400;
+  font-weight:00;
   margin: 0;
-  font-size: 28px;
+  font-size: 26px;
   padding-top: 10px;
 }
 .navbar ul { 
   transition: all 0.2s;
 
-  margin-left: 10.7rem;
+  margin-left: 10rem;
   list-style: none;
 }
 .navbar ul li {
@@ -150,12 +152,11 @@ code {
 }
 .navbar ul li a {
   transition: all 0.2s;
-  font-size: 20px;
+  font-size: 22px;
   cursor: pointer;
-
   text-decoration: none;
   color: rgb(243, 243, 243);
-  font-weight: 500;
+  font-weight: 400;
 
 }
 .button {
@@ -212,6 +213,14 @@ header h1 {
 .opened {
   transform: translateX(0%)!important;
 }
+
+#title {
+  font-family: 'Long Cang', cursive;
+  letter-spacing: 5px;
+  font-size: 200px;
+
+}
+
 /* main */
 .main-title {
   font-size: 48px;
@@ -372,50 +381,23 @@ ul li a {
   margin: 0 1rem!important;
 }
 
-.contact-input {
-  color:white;
-  border-radius: 5px;
-  padding: 15px 0px 10px 5px;
-  font-size: 20px;
-  width: 100%;
-  outline: 0;
-  border: 0;
-  background-color: rgba(0, 0, 0, 0.76);
+.contact-main {
+  text-align: center;
 
 }
-.form-btn {
-  border: 0;
-  outline: 0;
-  cursor: pointer;
-  font-size: 20px;
-  border-radius: 5px;
-  text-decoration: none;
-  color: white;
-  width: 100%;
-  font-weight: 500;
-  z-index: 1;
-  background-color: #01bf71;
-  padding: 10px 50px;
-
-  transition: background-color 0.2s;
+.contact-main a {
+  color:black;
+  margin: 10rem;
 }
-.contact-textarea {
-  color:white;
-  border-radius: 5px;
-  padding: 15px 0px 10px 5px;
-  font-size: 20px;
-  width: 100%!important;
-  min-width: 100%!important;
-  max-width: 100%!important;
-  height: 300px;
-  min-height: 300px;
-  max-height: 600px;
 
-  outline: 0;
-  border: 0;
-  background-color: rgba(0, 0, 0, 0.76);
-
+.contact {
+  /* border: solid; */
+  padding: 150px 0;
 }
+
+
+
+
 
 .p-video{
   padding: 3rem;
