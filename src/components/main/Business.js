@@ -29,9 +29,7 @@ function Business() {
           <div className="col-md-6">
             <h2 className="main-title about-h2">自動洗髪機</h2>
             <p className="main-p ">
-              当社が人材派遣、貿易、現地案内、ビジネス通訳翻訳など業務を通して  
-            中日両国のビューティー業界の架け橋を構築し、
-            お客様に選ばれ、喜ばれる会社提案型のサービス企業を目指しています。
+            AI機能を搭載し、心地よい水流を実現させパーマ剤やカラー剤もしっかり除去でき「髪にも頭皮にも優しい自動洗髪機」です。
             </p>
             {/* <div className="row-inner background-img">
                 <img className="img-3d" alt="machine" src="../img/machine3d.png"></img>
