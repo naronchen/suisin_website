@@ -1,10 +1,9 @@
 {
   "name": "companywebsite",
   "version": "0.1.0",
-  "homepage": ".",
+  "homepage": "https://github.com/naronchen/suisin_website",
   "private": true,
   "dependencies": {
-    "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
     "react": "^17.0.2",
@@ -14,6 +13,8 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -38,6 +39,6 @@
     ]
   },
   "devDependencies": {
-    "react-router-dom": "^6.3.0"
+    "gh-pages": "^5.0.0"
   }
 }

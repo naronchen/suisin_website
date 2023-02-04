@@ -225,6 +225,7 @@ header h1 {
 .main-title {
   font-size: 48px;
   color: #010a0b;
+  opacity: 1;
 }
 .sub-title {
   letter-spacing: 3px;
@@ -236,7 +237,9 @@ header h1 {
 .main-p {
   font-size: 22px;
   font-weight: 500;
+  opacity: 1;
 }
+
 main {
   padding: 3rem 0;
   background-color: #fafafa;
@@ -362,7 +365,6 @@ footer ul li a {
 .services .col-md-4 {
   margin: 1rem 1rem 1rem 1rem;
 
-
 }
 ul li a {
   cursor: pointer;
@@ -381,6 +383,7 @@ ul li a {
   margin: 0 1rem!important;
 }
 
+/* CONTACT */
 .contact-main {
   text-align: center;
 
@@ -392,7 +395,8 @@ ul li a {
 
 .contact {
   /* border: solid; */
-  padding: 150px 0;
+  margin-top: 300px;
+  margin-bottom: 100px;
 }
 
 
@@ -580,3 +584,13 @@ ul li a {
 .mb-1 {
   margin-bottom: 1rem!important;
 }
+
+/* .row-inner{
+  position: relative;
+  display:flex;
+  justify-content: flex-end;
+} */
+/* .img-3d {
+  position:absolute;
+  margin:0px;
+} */
