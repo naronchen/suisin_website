@@ -1,7 +1,7 @@
 {
   "name": "companywebsite",
   "version": "0.1.0",
-  "homepage": "https://github.com/naronchen/suisin_website",
+  "homepage": "https://naronchen.github.io/suisin_website/",
   "private": true,
   "dependencies": {
     "@testing-library/react": "^11.2.7",
