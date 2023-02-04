@@ -34,7 +34,7 @@ function Navbar() {
     <nav className="navbar">
       <div className="container">
         <div className="row">
-        <img alt="about" src="../img/suisin_logo.svg" height={60} class="filter-white"/>
+        <img alt="about" src={process.env.PUBLIC_URL+"/img/suisin_logo.svg"} height={60} class="filter-white"/>
           <h1 className="logo">
       
             <Link
