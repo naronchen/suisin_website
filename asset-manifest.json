@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/suisin_website/static/css/main.dff2216e.chunk.css",
-    "main.js": "/suisin_website/static/js/main.b36ee220.chunk.js",
-    "main.js.map": "/suisin_website/static/js/main.b36ee220.chunk.js.map",
+    "main.js": "/suisin_website/static/js/main.f94336c2.chunk.js",
+    "main.js.map": "/suisin_website/static/js/main.f94336c2.chunk.js.map",
     "runtime-main.js": "/suisin_website/static/js/runtime-main.388b0e4b.js",
     "runtime-main.js.map": "/suisin_website/static/js/runtime-main.388b0e4b.js.map",
     "static/js/2.285a30b1.chunk.js": "/suisin_website/static/js/2.285a30b1.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.388b0e4b.js",
     "static/js/2.285a30b1.chunk.js",
     "static/css/main.dff2216e.chunk.css",
-    "static/js/main.b36ee220.chunk.js"
+    "static/js/main.f94336c2.chunk.js"
   ]
 }
