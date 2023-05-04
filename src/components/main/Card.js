@@ -10,12 +10,12 @@ function Card(props) {
         <h3 className="card-title">{props.title}</h3>
       </div>
       <div className="p-3">
-        <p className="card-text">
-           <body className="card-body-text">{props.title1}</body>
-           <body className="card-body-text">{props.title2}</body>
-           <body className="card-body-text">{props.title3}</body>
+        <div className="card-text">
+           <div className="card-body-text">{props.title1}</div>
+           <div className="card-body-text">{props.title2}</div>
+           <div className="card-body-text">{props.title3}</div>
 
-        </p>
+        </div>
 
       </div>
     </div>
